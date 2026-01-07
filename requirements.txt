@@ -13,4 +13,5 @@ moviepy
 streamlit-webrtc
 av
 pydub
+audioop-lts
 setuptools-rust

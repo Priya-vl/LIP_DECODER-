@@ -1,0 +1,14 @@
+streamlit
+opencv-python
+numpy
+torch
+torchvision
+mediapipe
+yt-dlp
+openai-whisper
+deep-translator
+sounddevice
+scipy
+moviepy
+streamlit-webrtc
+av

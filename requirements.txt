@@ -1,5 +1,5 @@
 streamlit
-opencv-python
+opencv-python-headless
 numpy
 torch
 torchvision
@@ -12,3 +12,5 @@ scipy
 moviepy
 streamlit-webrtc
 av
+pydub
+setuptools-rust

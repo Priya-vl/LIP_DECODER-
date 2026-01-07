@@ -5,8 +5,7 @@ import base64
 import cv2
 import numpy as np
 import pydub
-import queue
-# Ensure all these components are imported correctly
+import queue  # Added this to fix the error in the live decoding block
 from streamlit_webrtc import webrtc_streamer, WebRtcMode, RTCConfiguration
 from utils import visual_feature_extraction, deep_lip_decode, translate_content, face_mesh
 
@@ -347,5 +346,6 @@ elif st.session_state.page == 'analyze':
                         except Exception as e:
                             st.error(f"Processing Error: {e}")
     if st.button("Start Over"): navigate('landing')
+
 
 st.markdown('</div>', unsafe_allow_html=True)
